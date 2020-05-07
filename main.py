@@ -1,10 +1,10 @@
 import math
 
-angle = 0
-while angle <= 360:
-  print(str(angle)+"°")
-  print("sin" + str(angle) + "°= " + str(math.sin(math.radians(angle))))
-  print("cos" + str(angle) + "°= " + str(math.cos(math.radians(angle))))
-  print("tan" +str(angle) + "°= " + str(math.tan(math.radians(angle))))
+r = 0
+while r <= 360:
+  print(str(r)+"°")
+  print("sin" + str(r) + "°= " + str(math.sin(math.radians(r))))
+  print("cos" + str(r) + "°= " + str(math.cos(math.radians(r))))
+  print("tan" +str(r) + "°= " + str(math.tan(math.radians(r))))
   print("\n")
-  angle += 15
+  r += 15
